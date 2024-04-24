@@ -2001,8 +2001,8 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   margin: 0;
 }
 .navbar-nav > li > a {
-  font-size: 16px;
-  line-height: 23px;
+  font-size: 28px;
+  line-height: 64px;
   font-weight: 700;
 }
 .navbar-nav .dropdown-toggle .caret {

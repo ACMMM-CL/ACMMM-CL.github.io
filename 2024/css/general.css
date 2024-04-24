@@ -206,7 +206,7 @@ background: #1abc9c !important;
 /* Nav */
 .navbar {
 	position: relative;
-	min-height: 60px;
+	min-height: 100px;
 	margin-bottom: 0; 
 	width: 100%;
 	z-index: 999;
@@ -215,7 +215,7 @@ background: #1abc9c !important;
 
 .navbar-default {
 	position: relative;
-	min-height: 60px;
+	min-height: 100px;
 	width: 100%;
 	z-index: 999;
 	
