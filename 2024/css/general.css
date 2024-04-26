@@ -78,7 +78,8 @@ margin: auto;
 	font-size: 8vmin;
 	font-family: arvo;
 	font-weight: 300;
-	letter-spacing: 6px;
+	letter-spacing: 2px;
+	/* letter-spacing: 6px; */
 }
 
 .h3_home{
@@ -252,7 +253,8 @@ color: #ECEBEB;
 	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
 	padding-bottom: 50px;
 	color: #d2d9eafc;
-	background: url(../img/intro/singapore1.jpg) no-repeat center center;
+	background: url(../img/intro/mel_skyline.jpg) no-repeat center center;
+	/* background: url(../img/intro/singapore1.jpg) no-repeat center center; */
 	background-size: cover;
 	text-align: center;
 }
