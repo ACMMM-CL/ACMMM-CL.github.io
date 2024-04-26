@@ -216,7 +216,7 @@ background: #1abc9c !important;
 
 .navbar-default {
 	position: relative;
-	min-height: 10px;
+	min-height: 110px;
 	width: 100%;
 	z-index: 999;
 	/* background-color: #ecf0f1; */
