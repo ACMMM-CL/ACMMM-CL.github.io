@@ -2001,8 +2001,8 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   margin: 0;
 }
 .navbar-nav > li > a {
-  font-size: 28px;
-  line-height: 64px;
+  font-size: 16px;
+  line-height: 23px;
   font-weight: 700;
 }
 .navbar-nav .dropdown-toggle .caret {
@@ -2250,7 +2250,8 @@ select[multiple].navbar-form .btn {
 }
 .navbar-default {
   background-color: #ecf0f1;
-  background: url(../2023/img/intro/banner-designed.jpg);
+  background: url(../2024/img/intro/nav.png);
+  /* background: url(../2023/img/intro/banner-designed.jpg); */
 }
 .navbar-default .navbar-brand {
   color: #34495e;

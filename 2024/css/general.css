@@ -24,7 +24,7 @@ body, html {
 
 .content-section-c {
 	border-top: 1px solid #32465A;
-	background: url(../img/intro/banner-designed.jpg);
+	background: url(../img/intro/bottom.png);
 	border-bottom: 1px solid #32465A;
 	background-color: #34495e;
 	padding: 0px 0;
@@ -216,14 +216,16 @@ background: #1abc9c !important;
 
 .navbar-default {
 	position: relative;
-	min-height: 100px;
+	min-height: 10px;
 	width: 100%;
 	z-index: 999;
-	
+	/* background-color: #ecf0f1; */
+  	background: url(../img/intro/banner-designed.jpg);
 }
 
 .navbar-default .navbar-nav>li>a {
 color: #ffffff;
+font-size: 15px;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
