@@ -225,7 +225,9 @@ background: #1abc9c !important;
 
 .navbar-default .navbar-nav>li>a {
 color: #ffffff;
-font-size: 15px;
+font-size: 23px;
+line-height: 70px;
+/* font-weight: 700; */
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -322,7 +324,8 @@ color: #ECEBEB;
 
 .content-section-a {
 	background-color: #f8f8f8;
-	padding: 90px 0; 
+	/* padding: 90px 0;  */
+	padding: 30px 10px; 
 }
 
 .content-section-b {
