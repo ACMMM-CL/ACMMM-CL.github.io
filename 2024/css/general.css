@@ -247,6 +247,15 @@ color: #ECEBEB;
 	font-weight: 400 !important;
 }
 
+#submit{
+	background-color: #1abc9c;
+	vertical-align: middle; /* 垂直居中对齐 */
+	border: none;
+	margin-left: 10px; /* 文本和按钮之间的距离 */
+	color:white;
+	border-radius: 8px;
+}
+
 .lead {
 	font-size: 16px;
 	font-weight: 400;
