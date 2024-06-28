@@ -73,6 +73,70 @@ max-width: 250px;
 margin: auto;
 }
 
+/* 表格信息 */
+.table td {
+	color: black; /* 将字体颜色设置为黑色 */
+  }
+
+.table>thead>tr>td.info,.table>tbody>tr>td.info,.table>tfoot>tr>td.info,.table>thead>tr>th.info,.table>tbody>tr>th.info,.table>tfoot>tr>th.info,.table>thead>tr.info>td,.table>tbody>tr.info>td,.table>tfoot>tr.info>td,.table>thead>tr.info>th,.table>tbody>tr.info>th,.table>tfoot>tr.info>th {
+    background-color: #d0e5f4
+}
+
+.first-row {
+	border-bottom: 2px solid black; /* 粗细为2px的黑色实线 */
+}
+
+.otherrow {
+	border-top: 1px solid rgb(190, 190, 190); /* 粗细为2px的黑色实线 */
+}
+
+/* 控制表格keyspeaker字体大小 */
+.badge{
+	font-size: 17px;
+}
+
+/* pre{
+	margin: 0;
+	white-space: pre-wrap; 
+	word-wrap: break-word;
+	background-color: #8D8D8D;
+} */
+
+.column1 {
+	width: 20%
+}
+
+.column2 {
+	width: 80%
+}
+.abstract-content {
+	text-align: left;
+	display: none; /* 初始隐藏 */
+	/* white-space: pre-wrap; 允许换行 */
+	word-wrap: break-word; /* 长单词换行 */
+	overflow-wrap: break-word; /* 长单词换行 */
+	max-height: 0; /* 初始高度为0 */
+	transition: max-height 0.5s ease-in-out; /* 动画效果 */
+	background-color: #aebfcc;
+	padding: 10px;
+}
+.abstract-content.show {
+	display: block; /* 显示 */
+	max-height: 500px; /* 设置一个足够高的最大高度 */
+}
+a.abstract {
+	cursor: pointer;
+}
+
+table .success a,.table .success a,table .warning a,.table .warning a,table .danger a,.table .danger a,table .info a,.table .info a {
+    color: #000
+}
+
+.table_button{
+	color: #095436;
+}
+
+
 .h1_home{
 	font-size: 80px;
 	font-size: 6vmin;
