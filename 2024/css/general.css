@@ -122,7 +122,7 @@ margin: auto;
 }
 .abstract-content.show {
 	display: block; /* 显示 */
-	max-height: 500px; /* 设置一个足够高的最大高度 */
+	max-height: 1500px; /* 设置一个足够高的最大高度 */
 }
 a.abstract {
 	cursor: pointer;
