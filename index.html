@@ -382,11 +382,14 @@
                                     </a>
                                 </li>
                                 <div id="QianruSun_abstract" class="abstract-content">
-                                    Our most recent work reviews the concept of "phase" which is the primary cause of unrealistic data distribution shifts in Class-Incremental Learning (CIL) settings. 
-                                    We thus eliminate the phase concept and propose a non-stationary data stream with class sampling distributions that shift at every time step. The entry time point of each class is random. This design respects the "rise-and-fall" nature described by Gunderson (2002) and introduces two new challenges for CIL. 
-                                    First, the non-stationarity of the data requires models to identify recent dynamics and adopt appropriate learning strategies for both memorization and adaptation. Second, at any given time point, the proposed stream may exhibit an extremely imbalanced data distribution, introducing a strong bias towards the dominant class. 
-                                    We address these challenges by introducing a novel Rate-dependent Coreset Selection (RdCS) method. For the first challenge, we tie the RdCS to a real-time rate indicating the intensity of the distribution shift, providing an adaptive selection strategy. For the second challenge, we design the RdCS to operate on biased validation steps. 
-                                    We will showcase some results of the CIL of image classification in this talk.
+                                    Large visual models, such as CLIP and Stable Diffusion (SD), demonstrate remarkable performance in general image recognition and generation tasks. 
+                                    Their continual learning involves two folds: enhancing their performance with more natural images as input, and adapting them to specialized image domains. 
+                                    Our research targets the latter, using remote sensing (RS) imagery as a use case. RS, which relies on specialized satellites, 
+                                    presents challenges in image annotation and suffers from data scarcity and class imbalance, especially in special spectrums. 
+                                    Adapting models in this domain often leads to strong biases, where features of major classes overshadow those of minor classes. 
+                                    To address this, we recently introduced debLoRA---a generic training approach compatible with various low-rank model adaptation methods (like LoRA) to produce debiased features. 
+                                    In this talk, we will delve into this method and present the results achieved.
+
                                 </div>
                             </ul>
                             <div class="col-sm-1 wow fadeInRightBig"  data-animation-delay="200">   
