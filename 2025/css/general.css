@@ -24,7 +24,8 @@ body, html {
 
 .content-section-c {
 	border-top: 1px solid #32465A;
-	background: url(../img/intro/bottom.png);
+	background: url(../img/intro/bottom.png) no-repeat;
+	background-size: cover;
 	border-bottom: 1px solid #32465A;
 	background-color: #34495e;
 	opacity: 0.5;
@@ -391,7 +392,8 @@ color: #ECEBEB;
 
 .navbar-default {
 	background-color: #ecf0f1;
-	background: url(../img/intro/nav.png);
+	background: url(../img/intro/nav.png) no-repeat;
+	background-size: cover;
 }
 
 .network-name {
