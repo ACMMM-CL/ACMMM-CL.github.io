@@ -279,13 +279,10 @@ background: #1abc9c !important;
 }
 
 .navbar-default {
-	position: relative;
-	min-height: 110px;
-	width: 100%;
-	z-index: 999;
-	/* background-color: #ecf0f1; */
-  	background: url(../img/intro/banner-designed.jpg);
+	background-color: #ecf0f1;
+	background: url(../img/intro/nav.png);
 }
+
 
 .navbar-default .navbar-nav>li>a {
 color: #ffffff;

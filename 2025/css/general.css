@@ -27,6 +27,7 @@ body, html {
 	background: url(../img/intro/bottom.png);
 	border-bottom: 1px solid #32465A;
 	background-color: #34495e;
+	opacity: 0.5;
 	padding: 0px 0;
 }
 
@@ -388,6 +389,10 @@ color: #ECEBEB;
 	margin-top: 10px;
 }
 
+.navbar-default {
+	background-color: #ecf0f1;
+	background: url(../img/intro/nav.png);
+}
 
 .network-name {
 	font-size: 14px;
