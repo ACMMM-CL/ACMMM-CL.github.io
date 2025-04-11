@@ -1723,6 +1723,16 @@ fieldset[disabled] .input-group-btn .btn-default.active {
 .input-group-rounded .input-group-btn + .form-control {
   padding-left: 0;
 }
+.intro-header {
+	height: 100%; /* Full PAge */
+	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+	padding-bottom: 50px;
+	color: #d2d9eafc;
+	background: url(./2024/img/intro/banner-designed.jpg) no-repeat center center;
+	/* background: url(../img/intro/singapore1.jpg) no-repeat center center; */
+	background-size: cover;
+	text-align: center;
+}
 .checkbox,
 .radio {
   margin-bottom: 12px;

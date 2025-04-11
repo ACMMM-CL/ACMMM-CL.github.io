@@ -1020,6 +1020,10 @@ pre code {
         width: 25%
     }
 
+    .col-sm-20 {
+        width: 20%
+    }
+
     .col-sm-2 {
         width: 16.66666667%
     }
